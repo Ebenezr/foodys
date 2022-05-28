@@ -59,4 +59,23 @@
         text-align: center;
         margin: 0;
     }
+    #login form{
+        width:90%;
+        border:none;
+
+
+    }
+    #login input{
+        text-align: left;
+        border: none;
+        margin: 0.2em 0;
+    }
+    #login input[type="submit"]{
+        text-align: center;
+        font-size:1.3em;
+    }
+        #login input[type="submit"]:focus{
+            border: 0.1em white solid;
+            background-color: none;
+        }
 }
