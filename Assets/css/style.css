@@ -9,9 +9,9 @@
 }
 
 #background-image{
-    /*background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.849)),
-                  url("../images/test-back1.jpg");*/
-    background-image: url("../images/test-back1.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.849)),
+                  url("../images/test-back1.jpg");
+    /*background-image: url("../images/test-back1.jpg");*/
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -28,7 +28,6 @@ header{
 
 li{
     display: inline-block;
-    height: 10vh;
     color: white;
     margin-top: 50px;
     padding: 50px;
@@ -46,7 +45,6 @@ li{
     border-radius: 50px;
     font-size: 1.2em;
     background-color: black;
-    height: 10vh;
     padding: 0px 70px;
     border: none;
 }
