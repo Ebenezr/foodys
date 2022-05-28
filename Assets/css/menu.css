@@ -8,15 +8,19 @@
     font-family: 'Nunito', sans-serif;
 }
 
-#background-image{
+#menu-bimage{
     /*background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.849)),
                   url("../images/test-back1.jpg");*/
-    background-image: url("../images/test-back1.jpg");
+    background-image: url("../images/main-backgorund.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-}
+    
+    
 
+    
+
+}
 header{
     display: flex;
     flex-direction: row;
@@ -38,49 +42,6 @@ li{
 #logo{
     height: 200px;
     border-radius: 100px;
-}
-
-#login{
-    display: block;
-    margin: 50px 50px;
-    border-radius: 50px;
-    font-size: 1.2em;
-    background-color: #EB9E9E;
-    color: black;
-    height: 10vh;
-    padding: 0px 70px;
-    border: none;
-}
-
-
-.container{
-    float: right;
-    margin: 2em;
-    height: 40vh;
-    width: 50vw;
-    text-align: center;
-    
-}
-
-.text{
-    font-size: 5em;
-    margin-bottom: 40px;
-    color: white;
-}
-
-#menu{
-    height: 7vh;
-    padding: 0px 70px;
-    border-radius: 50px;
-    font-size: 2.0em;
-    background-color: transparent;
-    border: solid 2px #EB9E9E;
-
-}
-#menu a{
-    color: white;
-    text-decoration: none;
-    
 }
 li a:link{
     color: white;
