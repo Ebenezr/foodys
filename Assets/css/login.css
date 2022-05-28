@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Kurale&family=Nunito:wght@200&family=Roboto+Flex:opsz,wght@8..144,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+#login{
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.849)),
+                  url("../images/test-back1.jpg");*/
+    background-image: url("../images/main-backgorund.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+form{
+    border: solid #EB9E9E;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin: auto;
+    margin-top: 50px;
+    
+    
+}
+input{
+    padding: 20px;
+    text-align: center;
+    
+}

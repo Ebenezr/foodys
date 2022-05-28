@@ -15,18 +15,15 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    
-    
-
-    
-
 }
+
 header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 2em;
     height: 30vh;
+    border: solid red;
     
 }
 
@@ -56,3 +53,25 @@ li a:hover{
 li a:active{
     color: greenyellow;
 }
+
+/*menu*/
+.main{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 2em;
+
+
+}
+.main .menu-element{
+    border: solid red;
+    height: 40vh;
+
+    font-size: 3em;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+}
+

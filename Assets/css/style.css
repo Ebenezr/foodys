@@ -45,11 +45,19 @@ li{
     margin: 50px 50px;
     border-radius: 50px;
     font-size: 1.2em;
-    background-color: #EB9E9E;
-    color: black;
+    background-color: black;
     height: 10vh;
     padding: 0px 70px;
     border: none;
+}
+#login a{
+    color: #EB9E9E;
+    text-decoration: none;
+}
+#login :hover{
+    color: white;
+    font-size: 1.2em;
+
 }
 
 
@@ -82,6 +90,7 @@ li{
     text-decoration: none;
     
 }
+/*Links styling*/
 li a:link{
     color: white;
     text-decoration: none;
