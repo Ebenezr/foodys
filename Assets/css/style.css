@@ -48,7 +48,7 @@ li{
     background-color: black;
     height: 10vh;
     padding: 0px 70px;
-    border: none;
+    border:none;
 }
 #login a{
     color: #EB9E9E;
@@ -82,7 +82,7 @@ li{
     border-radius: 50px;
     font-size: 2.0em;
     background-color: transparent;
-    border: solid 2px #EB9E9E;
+    border: solid 3px #EB9E9E;
 
 }
 #menu a{

@@ -11,7 +11,7 @@
 #menu-bimage{
     /*background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.849)),
                   url("../images/test-back1.jpg");*/
-    background-image: url("../images/main-backgorund.jpg");
+    background-image: url("../images/mb7.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -23,7 +23,7 @@ header{
     justify-content: space-between;
     margin: 2em;
     height: 30vh;
-    border: solid red;
+    /*border: solid black;*/
     
 }
 
@@ -63,11 +63,11 @@ li a:active{
 
 }
 .main .menu-element{
-    border: solid red;
+    border: solid greenyellow;
     height: 40vh;
-
+    color: #EB9E9E;
     font-size: 3em;
-    font-weight: 500;
+    font-weight: 700;
     display: flex;
     justify-content: center;
     align-items: center;
