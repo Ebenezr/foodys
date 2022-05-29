@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Kurale&family=Nunito:wght@200&family=Roboto+Flex:opsz,wght@8..144,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Kurale&family=Nunito:wght@200&family=Roboto+Flex:opsz,wght@8..144,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Kurale&family=Nunito:wght@200&family=Playfair+Display+SC&family=Roboto+Flex:opsz,wght@8..144,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+#contact-backgr{
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.849)),
+                  url("../images/test-back1.jpg");*/
+    background-image: url("../images/test-back1.jpg");
+    background-size: cover;
+    
+    
+    
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30vh;
+    /*border: solid black;*/
+    
+}
+
+li{
+    display: inline-block;
+    height: 10vh;
+    color: white;
+    margin-top: 50px;
+    padding: 50px;
+    font-size: 1.8em;
+}
+
+#logo{
+    height: 200px;
+    border-radius: 100px;
+    margin: 20px;
+}
+li a:link{
+    color: white;
+    text-decoration: none;
+}
+li a:visited{
+    color: #EB9E9E;
+}
+li a:hover{
+    color: black;
+}
+li a:active{
+    color: greenyellow;
+}
+
+.title{
+    
+    height: 10vh;
+    margin-top: 10px;
+    text-align: center;
+}
+.title h1{
+    margin-top: 5px;
+    font-family: 'Playfair Display SC', serif;
+    color: #EB9E9E;
+    padding: 10px;
+    letter-spacing: 3px;
+}
+.container{
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.directions{
+    width: 40%;
+    height: 80vh;
+    margin-left: 10%;
+    text-align: center;
+    line-height: 50px;
+}
+.directions h2{
+    margin-top: 50px;
+    font-size: 2em;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.textbox{
+    width: 40%;
+    height: 80vh;
+    margin-right: 10%;
+    text-align: center;
+    line-height: 50px;
+    background-color: rgba(128, 128, 128, 0.158);
+}
+.textbox h2{
+    margin-top: 50px;
+    font-size: 2em;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.textbox ol{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    padding: 30px 150px;
+    margin-top: 20px;
+    
+}
+::placeholder{
+    color: #EB9E9E;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+button{
+    margin-top: 20px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1em;
+}
+
+
+/*icon*/
+i{
+    font-size: 3em;
+    color: #EB9E9E;
+}
