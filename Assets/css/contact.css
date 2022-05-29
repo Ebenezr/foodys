@@ -11,14 +11,15 @@
 }
 
 #contact-backgr{
-    /*background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.849)),
-                  url("../images/test-back1.jpg");*/
-    background-image: url("../images/test-back1.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.849)),
+                  url("../images/test-back1.jpg");
+    /*background-image: url("../images/test-back1.jpg");*/
     background-size: cover;
     
     
     
 }
+
 
 header{
     display: flex;
