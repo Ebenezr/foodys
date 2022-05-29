@@ -1,0 +1,80 @@
+/*Media query css, screens under 700px*/
+@media (max-width: 700px) {
+  /*landing page media query starts here*/
+  #background-image {
+    width: 100vw;
+    height: 100vh;
+  }
+  body {
+    position: relative;
+  }
+  header {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(52, 52, 52);
+    width: 100vw;
+    margin: 0;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-around;
+  }
+  header #logo {
+    /*display: none;*/
+    position: absolute;
+    border-radius: 0.5em;
+    top: 20%;
+  }
+  header ul {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 0;
+    margin: 0;
+  }
+  header ul li {
+    margin: 0;
+    padding: 0.5em;
+  }
+  header ul li a {
+    font-size: 0.7em;
+    display: block;
+    white-space: nowrap;
+  }
+  header #login {
+    margin: 0;
+    padding: 0.2em 0.3em;
+    border-radius: 0.3em;
+  }
+  .container {
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    bottom: 10%;
+  }
+  .text {
+    width: 100%;
+  }
+  .text p {
+    font-size: 0.5em;
+    text-align: center;
+    margin: 0;
+  }
+  /*login page media query starts here*/
+  #login form {
+    width: 90%;
+    border: none;
+  }
+  #login input {
+    text-align: left;
+    border: none;
+    margin: 0.2em 0;
+  }
+  #login input[type="submit"] {
+    text-align: center;
+    font-size: 1.3em;
+  }
+  #login input[type="submit"]:focus {
+    border: 0.1em white solid;
+    background-color: none;
+  }
+}
