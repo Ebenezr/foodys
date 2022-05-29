@@ -15,6 +15,18 @@
     background-repeat: no-repeat;
     height: 100vh;
 }
+#h-icon{
+    
+    width: 300px;
+    
+}
+i{
+    color: #EB9E9E;
+    padding: 50px 50px;
+    font-size: 3.5em;
+    
+
+}
 form{
     border: solid #EB9E9E;
     display: flex;
